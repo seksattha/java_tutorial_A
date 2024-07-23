@@ -3,8 +3,10 @@
 public class Main {
 
     public static void demo_class_object1() {
-        Box aBox = new Box(30, 6, 10);
+        Box aBox = new Box(30, 101, 10);
         System.out.println(aBox.getW());
+        System.out.println(aBox.getD());
+        System.out.println(aBox.getH());
         if (aBox.getW() > 100 || aBox.getH() > 100 || aBox.getD() > 100 ) {
             System.out.println("กล่องขนาดใหญ่เป็นพิเศษ");
         } else {
