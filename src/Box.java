@@ -1,21 +1,7 @@
 public class Box {
     private double w, d, h;
 
-    public double getD() {
-        return d;
-    }
 
-    public void setD(double d) {
-        this.d = d;
-    }
-
-    public double getH() {
-        return h;
-    }
-
-    public void setH(double h) {
-        this.h = h;
-    }
 
     public Box(double w, double h, double d) {
         setW(w);
@@ -34,6 +20,30 @@ public class Box {
 
     public double getW() {
         return w;
+    }
+
+    public double getD() {
+        return d;
+    }
+
+    public void setD(double d) {
+        if ((d > 0)) {
+            this.d = d;
+        } else {
+            throw new IllegalArgumentException("ค่าจะต้องมากกว่าศูนย์");
+        }
+    }
+
+    public double getH() {
+        return h;
+    }
+
+    public void setH(double h) {
+        if ((h > 0)) {
+            this.h = h;
+        } else {
+            throw new IllegalArgumentException("ค่าจะต้องมากกว่าศูนย์");
+        }
     }
 
     //Creating method for calculating volume
