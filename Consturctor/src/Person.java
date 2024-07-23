@@ -10,15 +10,17 @@ public class Person {
 
     }
 
-    //this is default constructor
+    //this is chain constructor
     public Person(String firstName, String lastName) {
         this(firstName, lastName, "");
 
 
     }
 
-    // This is chain constructor
-    public
+    // This default constructor
+    public Person() {
+
+    }
 
 
     public void setFirstName(String firstName) {
