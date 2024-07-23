@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Consturctor/Chain_constructor.iml" filepath="$PROJECT_DIR$/Consturctor/Chain_constructor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition_1/Composition_1.iml" filepath="$PROJECT_DIR$/Composition_1/Composition_1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Composition_2/Composition_2.iml" filepath="$PROJECT_DIR$/Composition_2/Composition_2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Overloading/Overloading.iml" filepath="$PROJECT_DIR$/Overloading/Overloading.iml" />
       <module fileurl="file://$PROJECT_DIR$/Overriding/Overriding.iml" filepath="$PROJECT_DIR$/Overriding/Overriding.iml" />
       <module fileurl="file://$PROJECT_DIR$/interface/interface.iml" filepath="$PROJECT_DIR$/interface/interface.iml" />
