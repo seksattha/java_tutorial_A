@@ -19,8 +19,8 @@ public class Box {
 
     public Box(double w, double h, double d) {
         setW(w);
-        this.h = h;
-        this.d = d;
+        setD(d);
+        setH(h);
     }
 
     //Create setter ตัวอย่างแค่ w พอ
