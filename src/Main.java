@@ -5,7 +5,7 @@ public class Main {
     public static void demo_class_object1() {
         Box aBox = new Box(30, 6, 10);
         System.out.println(aBox.getW());
-        if (aBox.getW() > 100) {
+        if (aBox.getW() > 100 || aBox.getH() > 100 || aBox.getD() > 100 ) {
             System.out.println("กล่องขนาดใหญ่เป็นพิเศษ");
         } else {
             System.out.println("กล่องขนาดปกติ");
