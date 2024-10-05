@@ -1,4 +1,4 @@
-package abstract_factory_example;
+package BuilderPatternExample;
 
 public class FactoryCreator {
     public static BikeFactory createFactory(String type) {

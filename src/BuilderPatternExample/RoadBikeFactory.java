@@ -1,4 +1,4 @@
-package abstract_factory_example;
+package BuilderPatternExample;
 
 public class RoadBikeFactory extends BikeFactory {
     @Override

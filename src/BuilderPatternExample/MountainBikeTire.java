@@ -1,6 +1,4 @@
-package abstract_factory_example;
-
-import javax.swing.*;
+package BuilderPatternExample;
 
 public class MountainBikeTire extends Tire {
 

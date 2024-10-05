@@ -1,4 +1,4 @@
-package abstract_factory_example;
+package BuilderPatternExample;
 
 public abstract class Handlebar {
     abstract void getDescription();
