@@ -1,3 +1,5 @@
+package Builder;
+
 import java.time.LocalDate;
 
 public class Person {
@@ -19,7 +21,7 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
+        return "Builder.Person{" +
                 "firstName='" + firstName + '\'' +
                 ", middleName='" + middleName + '\'' +
                 ", lastName='" + lastName + '\'' +

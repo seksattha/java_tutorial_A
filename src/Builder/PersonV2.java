@@ -1,3 +1,5 @@
+package Builder;
+
 public class PersonV2 {
     private String fName;
     private String lName;
@@ -10,7 +12,7 @@ public class PersonV2 {
 
     @Override
     public String toString() {
-        return "PersonV2{" +
+        return "Builder.PersonV2{" +
                 "fName='" + fName + '\'' +
                 ", lName='" + lName + '\'' +
                 '}';
