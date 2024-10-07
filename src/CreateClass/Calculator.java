@@ -6,10 +6,15 @@ import java.util.Scanner;
 
 public class Calculator {
     public static void main(String[] args) {
+        Calculator calc = new Calculator();
+        calc.calculate();
+    }
 
-        String s1 = getInput("Enter a numeric value: ");
-        String s2 = getInput("Enter a numeric value: ");
-        String op = getInput("Choose an operation ( + - * /) : ");
+    private void calculate() {
+        InputHelper helper = new InputHelper();
+        String s1 = helper.getInput("Enter a numeric value: ");
+        String s2 = helper.getInput("Enter a numeric value: ");
+        String op = helper.getInput("Choose an operation ( + - * /) : ");
         double result = 0;
 
         try {
@@ -33,14 +38,15 @@ public class Calculator {
         } catch (Exception e) {
             System.out.println("Number formatting exception" + e.getMessage());
         }
+    }
+
+    class InputHelper {
+        private  String getInput(String prompt) {
+            System.out.print(prompt);
+            Scanner sc = new Scanner(System.in);
+            return sc.nextLine();
+        }
 
     }
 
-
-
-    private static String getInput(String prompt) {
-        System.out.print(prompt);
-        Scanner sc = new Scanner(System.in);
-        return sc.nextLine();
-    }
 }
