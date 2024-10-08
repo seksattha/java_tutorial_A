@@ -1,7 +1,12 @@
 package InstanceVariables.Model;
 
 public class Olive {
-    String name = "Kalamata";
+    //create constant by using final keywords
+    // the constant name must be upper case
+    public static final String KALAMATA = "Kalamata";
+    public static final String LIGURIAN = "Ligurian";
+
+    String name = KALAMATA;
     long color = 0x2E0854;
     int oil = 3;
 
