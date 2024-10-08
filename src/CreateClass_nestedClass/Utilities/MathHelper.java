@@ -1,4 +1,4 @@
-package CreateClass.Utilities;
+package CreateClass_nestedClass.Utilities;
 
 public class MathHelper {
     public static double addValues(String s1, String s2) {

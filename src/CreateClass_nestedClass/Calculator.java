@@ -1,6 +1,6 @@
-package CreateClass;
+package CreateClass_nestedClass;
 
-import CreateClass.Utilities.MathHelper;
+import CreateClass_nestedClass.Utilities.MathHelper;
 
 import java.util.Scanner;
 
