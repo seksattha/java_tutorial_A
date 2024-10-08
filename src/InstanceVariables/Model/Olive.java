@@ -1,20 +1,17 @@
 package InstanceVariables.Model;
 
 public class Olive {
-    //create constant by using final keywords
-    // the constant name must be upper case
-    public static final String KALAMATA = "Kalamata";
-    public static final String LIGURIAN = "Ligurian";
 
-    String name = KALAMATA;
-    long color = 0x2E0854;
-    int oil = 3;
+
+    private OliveName name = OliveName.KALAMATA;
+    private long color = 0x2E0854;
+    private int oil = 3;
 
     // constructor Method
     public Olive() {
     }
 
-    public Olive(String name, long color, int oil) {
+    public Olive(OliveName name, long color, int oil) {
         this.name = name;
         this.color = color;
         this.oil = oil;
@@ -25,11 +22,11 @@ public class Olive {
     //getter and setter
     //------------------Getter & Setter--------------------------------
 
-    public String getName() {
+    public OliveName getName() {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(OliveName name) {
         this.name = name;
     }
 
