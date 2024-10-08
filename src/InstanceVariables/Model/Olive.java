@@ -1,9 +1,21 @@
 package InstanceVariables.Model;
 
 public class Olive {
-    private String name = "Kalamata";
-    private long color = 0x2E0854;
-    private int oil = 3;
+    String name = "Kalamata";
+    long color = 0x2E0854;
+    int oil = 3;
+
+    // constructor Method
+    public Olive() {
+    }
+
+    public Olive(String name, long color, int oil) {
+        this.name = name;
+        this.color = color;
+        this.oil = oil;
+
+    }
+
 
     //getter and setter
     //------------------Getter & Setter--------------------------------
