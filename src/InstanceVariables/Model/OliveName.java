@@ -11,6 +11,7 @@ public enum OliveName {
     // do not put the "Public" key word on this ?
     //------can be called only in Enum------------
     OliveName(String name) {
+
         this.name = name;
     }
 
@@ -18,6 +19,7 @@ public enum OliveName {
 
     @Override
     public String toString() {
+
         return ("Name of Olive =>  " + name);
     }
 }
