@@ -24,7 +24,7 @@ public class Main {
         Press press = new OlivePress();
         press.setOil(5);
         int totalOil = press.getOil(olives);
-        System.out.println("Total Olive oil:" + totalOil);
+        System.out.println("Total Oil => "+totalOil);
 
 
 

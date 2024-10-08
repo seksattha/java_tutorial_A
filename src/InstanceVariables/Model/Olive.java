@@ -1,6 +1,6 @@
 package InstanceVariables.Model;
 
-public class Olive {
+public abstract class Olive {
 
 
     private OliveName name;
@@ -39,9 +39,12 @@ public class Olive {
     }
 
     public int crush() {
-        System.out.println("Ouch!!");
+        String msg = name + ": " + "from" + getOrigin() + oil + " unit";
+        System.out.println(msg);
         return oil;
     }
+
+    public abstract String getOrigin();
 
     public void setOil(int oil) {
         this.oil = oil;
