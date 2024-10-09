@@ -1,4 +1,4 @@
-package BuilderPatternExample;
+package Pattern.AbstractFactoryPattern;
 
 public class FactoryCreator {
     public static BikeFactory createFactory(String type) {

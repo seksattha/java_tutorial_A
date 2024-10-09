@@ -1,4 +1,4 @@
-package PrototypePattern;
+package Pattern.PrototypePattern;
 
 public abstract class Meal {
     //create variable  price

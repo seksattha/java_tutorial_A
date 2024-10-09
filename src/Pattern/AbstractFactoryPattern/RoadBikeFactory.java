@@ -1,4 +1,4 @@
-package BuilderPatternExample;
+package Pattern.AbstractFactoryPattern;
 
 public class RoadBikeFactory extends BikeFactory {
     @Override

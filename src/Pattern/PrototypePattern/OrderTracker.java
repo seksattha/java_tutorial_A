@@ -1,6 +1,4 @@
-package PrototypePattern;
-
-import com.sun.corba.se.pept.transport.ListenerThread;
+package Pattern.PrototypePattern;
 
 import java.util.ArrayList;
 import java.util.List;
