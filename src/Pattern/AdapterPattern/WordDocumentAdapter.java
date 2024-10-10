@@ -3,7 +3,7 @@ package Pattern.AdapterPattern;
 public class WordDocumentAdapter
         extends WordDocumentUploader
         implements DocumentUploader {
-
+    // ทำการลบ พวก Contructor และ Field ออกไปให้หมด
 
 
     @Override
@@ -11,7 +11,7 @@ public class WordDocumentAdapter
         uploadWordDocument(); // ตรงนี้มาสามารถเอามาใช้ได้เลยเพราะว่า ทำการ Extends มาแล้ว
 
     }
-
+    // เราทำแบบนี้ก็ได้เหมือนกัน Override Method ของ Superclass
     @Override
     public void uploadWordDocument() {
         System.out.println("Preparing Word document ...");
