@@ -1,8 +1,8 @@
 package Pattern.BuilderPattern;
 
 public class PersonV2 {
-    private String fName;
-    private String lName;
+    private final String fName;
+    private final String lName;
 
     public PersonV2(PersonV2Builder myOwnBuilder){
         this.fName = myOwnBuilder.firstName;
