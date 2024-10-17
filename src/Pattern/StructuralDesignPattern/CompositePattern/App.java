@@ -13,5 +13,6 @@ public class App {
         checklist.addTodoItem(todoItem3);
 
         todoItem1.complete();
+        checklist.isComplete();
     }
 }
