@@ -3,7 +3,7 @@ package Pattern.SingletonPattern;
 public class ImagePrinter {
 
     public void printImage() {
-        PrintSpooler spooler = new PrintSpooler();
+        PrintSpooler spooler = PrintSpooler.getInstance();
         spooler.print();
     }
 }
