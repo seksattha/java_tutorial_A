@@ -1,4 +1,4 @@
-package Pattern.AbstractFactoryPattern;
+package Pattern.CreationDesignPattern.AbstractFactoryPattern;
 
 public class MountainBikeHandlebar extends Handlebar {
     private static final String type = "Straight";

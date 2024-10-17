@@ -1,4 +1,4 @@
-package Pattern.FactoryPattern;
+package Pattern.CreationDesignPattern.FactoryPattern;
 
 public class TicketOffice {
         private static final TicketMachine ticketMachine = new TicketMachine();

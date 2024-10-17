@@ -1,4 +1,4 @@
-package Pattern.AbstractFactoryPattern;
+package Pattern.CreationDesignPattern.AbstractFactoryPattern;
 
 public class RoadBikeHandlebar extends Handlebar {
     private static final String type = "DROP";

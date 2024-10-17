@@ -1,4 +1,4 @@
-package Pattern.SingletonPattern;
+package Pattern.CreationDesignPattern.SingletonPattern;
 
 public class DocumentPrinter {
 

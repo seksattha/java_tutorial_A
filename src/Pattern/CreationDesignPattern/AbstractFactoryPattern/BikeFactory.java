@@ -1,4 +1,4 @@
-package Pattern.AbstractFactoryPattern;
+package Pattern.CreationDesignPattern.AbstractFactoryPattern;
 
 public abstract class BikeFactory {
     abstract Tire createTire();

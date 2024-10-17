@@ -1,4 +1,4 @@
-package Pattern.FactoryPattern;
+package Pattern.CreationDesignPattern.FactoryPattern;
 
 public class TrainTicket implements Ticket {
     @Override

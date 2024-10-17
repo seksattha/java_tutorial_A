@@ -1,4 +1,4 @@
-package Pattern.PrototypePattern;
+package Pattern.CreationDesignPattern.PrototypePattern;
 
 public class Pizza extends Meal {
     private PizzaFlavor flavor;

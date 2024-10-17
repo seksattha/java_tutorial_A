@@ -1,4 +1,4 @@
-package Pattern.FactoryPattern;
+package Pattern.CreationDesignPattern.FactoryPattern;
 
 public class TicketMachine {
     Ticket createTicket(String ticketType) {

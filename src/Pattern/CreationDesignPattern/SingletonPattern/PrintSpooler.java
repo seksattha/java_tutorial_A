@@ -1,4 +1,4 @@
-package Pattern.SingletonPattern;
+package Pattern.CreationDesignPattern.SingletonPattern;
 
 // singleton must be final class, not able to be extended.
 public final class PrintSpooler {
