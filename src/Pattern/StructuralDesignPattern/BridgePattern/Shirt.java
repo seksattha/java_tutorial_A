@@ -1,4 +1,4 @@
-package Pattern.BridgePattern;
+package Pattern.StructuralDesignPattern.BridgePattern;
 
 public class Shirt implements ClothingItems {
 

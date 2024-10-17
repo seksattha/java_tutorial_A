@@ -1,4 +1,4 @@
-package Pattern.AdapterPattern;
+package Pattern.StructuralDesignPattern.AdapterPattern;
 
 public class WordDocumentUploader {
     public void uploadWordDocument() {

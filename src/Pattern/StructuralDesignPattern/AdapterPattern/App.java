@@ -1,4 +1,4 @@
-package Pattern.AdapterPattern;
+package Pattern.StructuralDesignPattern.AdapterPattern;
 
 public class App {
     public static void main(String[] args) {
