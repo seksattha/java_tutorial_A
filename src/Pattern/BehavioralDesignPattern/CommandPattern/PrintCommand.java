@@ -1,4 +1,4 @@
-package Pattern.BehavioralDesignPattern.ChainOfResponsibilityPattern.CommandPattern;
+package Pattern.BehavioralDesignPattern.CommandPattern;
 
 public class PrintCommand implements Command {
     private Document document;

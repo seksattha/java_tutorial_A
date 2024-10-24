@@ -1,4 +1,4 @@
-package Pattern.BehavioralDesignPattern.ChainOfResponsibilityPattern.CommandPattern;
+package Pattern.BehavioralDesignPattern.CommandPattern;
 
 public class Document {
 
@@ -7,7 +7,8 @@ public class Document {
         System.out.println("Saving Document");
     }
 
-    public void print() {
+    public void
+    print() {
         System.out.println("Printing document...");
     }
 }

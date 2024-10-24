@@ -1,7 +1,7 @@
 package Pattern.BehavioralDesignPattern.ChainOfResponsibilityPattern;
 
 public abstract class DocumentHandler {
-    private  DocumentHandler next;
+    private DocumentHandler next;
 
     public DocumentHandler(DocumentHandler next) {
         this.next = next;
